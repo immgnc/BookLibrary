@@ -1,0 +1,281 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ *:focus {
+     outline: none;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     overflow-x: hidden;
+     font-size: 16px;
+     width: 100%;
+     background-color: rgba(241, 200, 145, 0.678);
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .wrapper {
+     width: 98%;
+     margin: 0 auto;
+ }
+ 
+ header {
+     width: 100%;
+     padding: 20px 0;
+     background: linear-gradient(to bottom right, #8308ff, #ae00ff);
+     position: relative;
+ }
+ 
+ header nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ header nav .nav-leftSide a {
+     font-size: 1.5em;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+ }
+ 
+ header nav .nav-rigthSide ul {
+     display: inline-block;
+ }
+ 
+ header nav .nav-rigthSide ul li {
+     display: inline-block;
+     vertical-align: middle;
+     color: #fff;
+     font-size: 1em;
+     padding: 0 0.625em;
+ }
+ 
+ header .form-holder {
+     width: 70%;
+     margin: 0 auto;
+     margin-top: 7.1875em;
+ }
+ 
+ header .form-holder form {
+     padding: 5em 0;
+     width: 100%;
+ }
+ 
+ header .form-holder form .form-top,
+ header .form-holder form .form-bottom {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .form-group {
+     width: 20%;
+ }
+ 
+ .form-group label {
+     width: 100%;
+     text-align: left;
+     color: #fff;
+ }
+ 
+ .form-group select {
+     color: #fff;
+     width: 100%;
+     border: 1px solid #fff;
+     font-size: 1em;
+     padding: 1em 0 1em 1em;
+     background: transparent;
+     margin-top: 0.625em;
+ }
+ 
+ .form-group select option {
+     color: #000;
+ }
+ 
+ header .form-holder form .form-bottom {
+     margin-top: 2.5em;
+ }
+ 
+ header .form-holder form .form-bottom .form-group {
+     width: 73%;
+ }
+ 
+ header .form-holder form .form-bottom .form-group input {
+     width: 100%;
+     background: transparent;
+     color: #fff;
+     font-size: 1em;
+     border: 1px solid #fff;
+     padding: 1em 0 1em 1em;
+ }
+ 
+ header .form-holder form .form-bottom .form-group input::placeholder {
+     color: #fff;
+     font-size: 1em;
+ }
+ 
+ header .form-holder form .form-bottom button {
+     border: none;
+     width: 20%;
+     font-size: 1em;
+     padding: 1em 0;
+     background: #010028;
+     color: #fff;
+ }
+ 
+ .slide-wrapper {
+     width: 90%;
+     margin: 0 auto;
+ }
+ 
+ .pic-name {
+     margin-top: 4em;
+     width: 20%;
+ }
+ 
+ img {
+     width: 60%;
+     height: 17em;
+ }
+ 
+ h3,
+ h6 {
+     text-align: left;
+     width: 60%;
+ }
+ 
+ h6 {
+     color: rgb(107, 105, 105);
+ }
+ 
+ .multiple-items {
+     margin-top: 5em;
+     position: relative;
+ }
+ 
+ .content-wrapper {
+     margin: 0 auto;
+ }
+ 
+ .header-category {
+     width: 50%;
+     border-radius: 2%;
+     margin: 0 auto;
+     position: absolute;
+     left: 25%;
+     top: 30em;
+     height: 5em;
+     background-color: rgb(93, 121, 107);
+ }
+ 
+ .category-ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     align-content: center;
+ }
+ 
+ .category-li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 20%;
+     margin: auto;
+     font-weight: 600;
+     color: black;
+     text-decoration: none;
+     height: 5em;
+     align-content: center;
+ }
+ 
+ .category-li a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ .category-li:hover {
+     border-bottom: 2px #8308ff solid;
+ }
+ 
+ .main-wrapper {
+     width: 98%;
+ }
+ 
+ .main {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+ 
+ .main .main-nav {
+     display: inline-block;
+     width: 30%;
+ }
+ 
+ .main ul {
+     width: 100%;
+ }
+ 
+ .main-nav-li {
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     width: 80%;
+     font-weight: 500;
+     color: black;
+     text-decoration: none;
+     height: 2.5em;
+     align-content: center;
+     border-bottom: 0.2px rgb(141, 138, 138) solid;
+ }
+ 
+ .main-nav-li a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ .main-nav-li:hover {
+     background-color: #8308ff;
+ }
+ 
+ .main-content {
+     display: inline-block;
+     width: 69%;
+ }
+ 
+ .main-contentDiv {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin-bottom: 1em;
+ }
+ 
+ .main-contentDivForImg {
+     width: 16%;
+ }
+ 
+ .main-contentDivForImg img {
+     width: 100%;
+     height: 13em;
+ }
+ 
+ .main-contentDivForText {
+     display: inline-block;
+     width: 83%;
+     margin-bottom: 3px;
+ }
+ 
+ .main-content-Div-ForText-H6,
+ .linkForBook {
+     margin-bottom: 2em;
+ }
+ 
+ .ForWish {
+     margin-left: 2em;
+ }
